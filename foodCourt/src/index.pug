@@ -1,0 +1,215 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="icon", href="./assets/image/menu-2.png")
+        link(rel="stylesheet", href="./assets/css/all.min.css")
+        link(rel="stylesheet", href="./assets/fonts/css/all.css")
+        script(src="./assets/js/all.min.js" async defer)
+        title Food Court 
+    body
+        .main 
+            nav
+                div.logo
+                    img(src="./assets/image/logo.png", alt="")
+                span.menu-bar
+                    i.fa-solid.fa-bars    
+                -const menu_items = ["home","about us","menu order","reservation","contact us"]
+                ul.nav
+                    span.close-menu
+                        i.fa-solid.fa-xmark                
+                    each item in menu_items 
+                        li 
+                            a(href="#")=item
+                    button.btn.order order now 
+
+            header
+                .header-desc
+                    p.header-desc-hero.
+                        BEST FOOD COURT RESTURANT
+                    p.header-decs-text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                    button.btn.header-btn learn about us
+                .header-img 
+                    img(src="./assets/image/main.png", alt="")        
+        .foods 
+            .food
+                div
+                    .best-food Best on that day
+                    p.food-title.
+                        GET A 10% DISCOUNT ON CHRISTMAS
+                    p.food-desc. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    button.btn.food-btn order now  
+                img(src="./assets/image/humbergur.png", alt="") 
+
+            .food
+                div
+                    .best-food Best on that day
+                    p.food-title.
+                        BUY 1 DRINKS GET 1 FREE DRINKS
+                    p.food-desc. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    button.btn.food-btn order now       
+                img(src="./assets/image/drink.png", alt="")      
+        .foods-menu
+            h1 Our Best Menu
+            p All in good taste elementum integer enim neque volutpat ac.
+            .menu
+                .menu-item 
+                    img(src="./assets/image/menu-1.png", alt="Shrimps Tomato")
+                    span.item-name Shrimps Tomato
+                    .item-desc 
+                        span $18.30
+                        div
+                            span 4.6
+                            span.item-stars 
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                .menu-item
+                    img(src="./assets/image/menu-2.png", alt="Avocado Tuna")
+                    span.item-name Avocado Tuna
+                    .item-desc 
+                        span $12.40
+                        div
+                            span 4.8
+                            span.item-stars 
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star     
+                .menu-item
+                    img(src="./assets/image/menu-3.png", alt="Barley Porridge")
+                    span.item-name Barley Porridge
+                    .item-desc 
+                        span $16.30
+                        div
+                            span 4.7
+                            span.item-stars 
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star    
+                .menu-item
+                    img(src="./assets/image/menu-4.png", alt="Shrimps Tomato")
+                    span.item-name Shrimps Tomato
+                    .item-desc 
+                        span $18.30
+                        div
+                            span 4.6
+                            span.item-stars 
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star     
+                .menu-item
+                    img(src="./assets/image/menu-2.png", alt="Barley Porridge")
+                    span.item-name Barley Porridge
+                    .item-desc 
+                        span $15.50
+                        div
+                            span 4.3
+                            span.item-stars 
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                .menu-item
+                    img(src="./assets/image/menu-4.png", alt="Shrimps Tomato")
+                    span.item-name Shrimps Tomato
+                    .item-desc 
+                        span $35.00
+                        div
+                            span 4.4
+                            span.item-stars 
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star            
+                .menu-item
+                    img(src="./assets/image/menu-1.png", alt="Shrimps Tomato")
+                    span.item-name Barley Porridge
+                    .item-desc 
+                        span $22.00
+                        div
+                            span 4.5
+                            span.item-stars 
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                .menu-item
+                    img(src="./assets/image/menu-3.png", alt="Avocado Tuna")
+                    span.item-name Avocado Tuna
+                    .item-desc 
+                        span $30.00
+                        div
+                            span 4.9
+                            span.item-stars 
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star
+                                i.fa-solid.fa-star                           
+        .customer-banner   
+            .banner-desc 
+                h2 Get a special offer for your special occasion
+                p. 
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+                button.btn Book reservation 
+            .banner-img 
+                img(src="./assets/image/menu-2.png", alt="salad")
+        .customer-support
+            h2 GET EXCLUSIVE UPDATE
+            .support 
+                input(type="text", placeholder="your email")
+                button.customer-support-btn submit  
+        footer 
+            .footer-item 
+                .footer-logo 
+                    img(src="./assets/image/logo.png" alt="logo")
+                p.footer-desc Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            .footer-item.footer-link 
+                h3 support
+                a(href="#") FAQ`s
+                a(href="#") privacy policy
+                a(href="#") term&condition 
+                a(href="#") contact
+            .footer-item 
+                .contact-us  
+                    h3 phone
+                    div
+                        span.contact-icon
+                            i.fa-regular.fa-phone-volume
+                        span +(98) 902 859 7094
+                .contact-us 
+                    h3 email
+                    div
+                        span.contact-icon
+                            i.fa-regular.fa-envelope
+                        span elahe.fahmideh@gmail.com
+            .footer-item
+                .address 
+                    h3 address
+                    div  
+                        span.address-icon     
+                            i.fa-regular.fa-location-dot
+                        span IRAN , TEHRAN  
+                .socials
+                    h3 follow us 
+                    div.socials-icon 
+                        a(href="https://www.linkedin.com/in/elahe-fahmideh" target="_blank")
+                            i.fa-brands.fa-linkedin
+                        a(href="https://github.com/Ela-Fhd" target="_blank")
+                            i.fa-brands.fa-github   
+                                
+                                                                  
