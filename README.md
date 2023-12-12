@@ -14,4 +14,5 @@
   - 🙋‍♀️Developed by Elahe Fahmideh
   - 📆Created : December 2023
   - &#x2714;Technologies : Html , Css , Javascript , Gulp js , Pug js , npm , Pug Plugins
-  - &#128231;Contact with me : <a href="https://www.linkedin.com/in/elahe-fahmideh/">LINKEDIN</a>
+  - 💬Description : for using this project first install gulp js and pug js globally on your system , you can add your task in gulpfile.js ,then call gulp in the terminal to run your tasks
+ - &#128231;Contact with me : <a href="https://www.linkedin.com/in/elahe-fahmideh/">LINKEDIN</a>
